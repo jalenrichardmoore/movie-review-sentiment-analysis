@@ -40,13 +40,13 @@ movie-review-sentiment-analysis/
 ## **Installation & Usage**
 1. Clone the repository:
 ```sh
-git clone https://github.com/Jalen-Moore/stranded-scripts.git
+git clone https://github.com/jalenrichardmoore/movie-review-sentiment-analysis.git
 ```
 
 2. From your terminal, in the root folder of the project, run:
-   ```sh
-   python run.py
-   ```
+```sh
+python run.py
+```
    
 ## **Credits**
 Developed by Jalen Moore
