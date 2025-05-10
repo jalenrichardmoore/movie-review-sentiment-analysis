@@ -4,7 +4,7 @@ import sqlite3
 import pickle
 import os
 
-from vectorizer import vectorizer
+from .vectorizer import vectorizer
 
 # Define update function to update the classifier model
 def update_model(db_path, model, batch_size = 10000):

@@ -11,7 +11,7 @@ from sklearn.feature_extraction.text import HashingVectorizer
 from sklearn.linear_model import SGDClassifier
 
 # Read the dataset into a dataframe
-dataset_path = os.getcwd() + "\Datasets\movie_data.csv"
+dataset_path = os.getcwd() + "\datasets\movie_data.csv"
 movie_data = pd.read_csv(dataset_path)
 
 # Download list of stopwords
