@@ -18,16 +18,17 @@ movie-review-sentiment-analysis/
 │   └── movie_data.csv                    # Movie review dataset for initial model
 │
 ├── movie_classifier/
-│   ├── __init__.py              
+│   ├── pkl_objects/
+│       ├── classifier.pkl                # Pickled sentiment classifier model
+│       └── stopwords.pkl                 # Pickled list of stopwords used in text processing
+|   ├── __init__.py              
 │   ├── movie_classifier.py               # Script to create the initial model off the dataset and store it
+│   ├── reviews.sqlite                    # Database of movie reviews
 │   ├── reviews_database.py               # Script to create the database of movie reviews
 │   ├── update.py                         # Defines function to update the model when a new review is analyzed
 │   ├── vectorizer.py                     # Defines vectorizer used in the model to process text input
-│   └── pkl_objects/
-│       ├── classifier.pkl                # Pickled sentiment classifier model
-│       └── stopwords.pkl                 # Pickled list of stopwords used in text processing
 │
-├── reviews.sqlite                        # Database of movie reviews
+├── __init__.py
 ├── requirements.txt                      # List of dependencies for Streamlit app
 ├── run.py                                # Cross-platform launcher script (sets up env and runs app)
 └── README.md
